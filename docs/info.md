@@ -13,8 +13,9 @@ The code takes in two 4-bit inputs, and multiplies them, outputting the 8-bit re
 
 ## How to test
 
-Input 1 is the first 4 bits of the input, and input 2 is the second 4 bits of the input, the multiplied result is the 8-bit output.
+Put inputs in test.py, with input 1 being the left 4 bits of dut.ui_in.value, and input 2 being the right 4 bits of dut.ui_in.value.
+The corresponding output is compared with dut.uo_out.value, which should be the correct result of the multiplication.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
