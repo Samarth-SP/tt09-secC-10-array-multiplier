@@ -38,22 +38,22 @@ async def test_project(dut):
     await ClockCycles(dut.clk, 1)
     assert dut.uo_out.value == 8
 
-    #test1
+    #test2
     dut.ui_in.value = 0x55
     await ClockCycles(dut.clk, 1)
     assert dut.uo_out.value == 25
     
-    #test1
+    #test3
     dut.ui_in.value = 0x67
     await ClockCycles(dut.clk, 1)
     assert dut.uo_out.value == 42
 
-    #test1
+    #test4
     dut.ui_in.value = 0x26
     await ClockCycles(dut.clk, 1)
     assert dut.uo_out.value == 12
 
-    #test1
+    #test5
     dut.ui_in.value = 0x38
     await ClockCycles(dut.clk, 1)
     assert dut.uo_out.value == 24
