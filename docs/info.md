@@ -13,7 +13,7 @@ The code takes in two 4-bit inputs, and multiplies them, outputting the 8-bit re
 
 ## How to test
 
-Explain how to use your project
+Input 1 is the first 4 bits of the input, and input 2 is the second 4 bits of the input, the multiplied result is the 8-bit output.
 
 ## External hardware
 
